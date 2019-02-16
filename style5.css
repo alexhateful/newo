@@ -1,0 +1,24 @@
+body{
+min-height: 100vh;
+background-color: #3194C5;
+border: 20px solid #2B81AC;
+margin: 0%;
+/*padding: 20px solid #2B81AC;*/
+
+}
+.conteyner{
+    width: 984px;
+    background-color: azure;
+    text-align: center;
+    margin: auto;
+    
+}
+
+ul{
+list-style-type: none;
+
+}
+
+li{
+    display: inline-block;
+}
