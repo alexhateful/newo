@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #ffffff;
+position: absolute;
+left: 0;
+bottom: 0;
+top: 0;
+right: 0; 
+margin: auto;
+}
+
+/* ---------HEDER---------- */
+header{
+text-align: center;
+margin: 0px 0px 33px 0;
+}
+
+h1{
+font-family:'Asap', sans-serif;
+color:  #202020;
+font-size: 30px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: -1px;
+}
+
+.colortext{
+font-family:'Asap', sans-serif;
+color:  #2ec06c;
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
+}
+
+p{
+font-family:'Karla', sans-serif;
+color:  #666666;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.01em;
+}
+
+/* --------WRAPER--------- */
+
+.wraper{
+width: 940px;
+height: 300px;
+display: grid;
+grid-template: repeat(30,1fr)/repeat(94,1fr);
+background-color:#ffffff;
+}
+
+/* ----------WRAPER_LINKS--------- */
+
+.box{
+background-color:#ffffff;
+border-radius: 5px ;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box:hover{
+background-color:#ff0085;    
+color: #ffffff;
+border: none; 
+}
+    
+.fb{
+border: 1px  solid #385899;
+grid-area: 1/1/15/15;
+}
+
+.in{
+border: 1px  solid #5080a5;
+grid-area: 17/1/31/15;
+}
+
+.tw{
+border: 1px  solid #00aeee;  
+grid-area: 1/17/15/31;    
+}
+
+.br{
+border: 1px  solid #385899;
+grid-area: 17/17/31/31;
+}
+
+
+/* ----------WRAPER_INPUTTEXT-------- */
+
+.form_inputtext{
+background-color: #ffffff;
+border: 1px  solid #bcbcbc; 
+border-radius: 5px;
+outline: 0;
+font-family: 'Asap', sans-serif;
+font-style: italic;
+color:  #666666;
+font-size: 16px;
+font-weight:400;
+line-height: 30px;
+padding: 0 0 0 20px;
+}
+
+
+
+.form_inputtext:focus{
+border: 1px  solid  #2ac26c;
+font-style: normal;
+}
+
+.First_name{
+grid-area: 1/33/6/63;
+}
+
+.Your_Email{
+grid-area: 8/33/13/63;
+}
+
+.Last_Name{
+grid-area: 1/65/6/95;
+}
+
+.Project_Name{
+grid-area: 8/65/13/95;   
+} 
+
+/* ---------WRAPER_SUBMIT-------- */
+.submit{
+display: none;
+}
+
+.form_textarea{
+background-color: #ffffff;
+border: 1px solid #bbbbbb;  
+border-radius: 5px 0 0 5px;
+grid-area: 15/33/33/91;
+text-decoration: none;
+border-right: none;
+outline: 0;
+font-family: 'Asap', sans-serif;
+font-style: italic;
+color:  #666666;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px; 
+padding: 10px 0 0 17px;
+}
+
+
+.form_textarea:focus{
+border: 1px  solid  #2ac26c;
+font-style: normal;
+}
+
+.formsubmit{
+background-color: deeppink;
+grid-area: 15/91/233/95;
+border-radius: 0 5px 5px 0;
+background-color:  #2ac26c;
+}
+
+.fa-facebook-f{
+font-size: 50px;
+color: #385899;
+background-color: blueviolet;
+}
+
+.fa-instagram{
+font-size: 60px;
+color: #5080a5;
+}
+
+.fa-twitter{
+font-size: 50px;
+color:#00aeee;
+}
+
+
+.fa-dribbble{
+font-size: 60px;
+color:#385899;
+}
+
+.formsubmit{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.formsubmit:hover{
+background-color: deeppink;
+color:#2ac26c;
+}
+
+.fa-paper-plane{
+color: #ffffff;
+}
+
+
+/* ------------HOVER----------- */
+
+
+
